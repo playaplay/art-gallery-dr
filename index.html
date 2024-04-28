@@ -1,485 +1,569 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="img/title.ico" />
 
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="icon" href="img/title.ico">
+    <link rel="stylesheet" href="A.style.css.pagespeed.cf.0VivtDGN1d.css" />
     <!-- animate on scroll css  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="common.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+  <script></script>
+  <body>
     <header class="header-area">
+      <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+          <div class="container">
+            <nav class="classy-navbar justify-content-between" id="alimeNav">
+              <a
+                class="nav-brand"
+                href="index.html"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                <h1 class="home-logo">Portfolio</h1>
+              </a>
 
-        <div class="main-header-area">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
+              <div class="classy-navbar-toggler">
+                <span class="navbarToggler"
+                  ><span></span><span></span><span></span
+                ></span>
+              </div>
 
-                    <nav class="classy-navbar justify-content-between" id="alimeNav">
-
-                        <a class="nav-brand" href="index.html" data-aos="fade-right" data-aos-duration="3000">
-                            <h1 class="home-logo">My Site</h1>
-                        </a>
-
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <div class="classy-menu">
-
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <div class="classynav" data-aos="fade-left" data-aos-duration="3000">
-                                <ul id="nav">
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="gallery.html">Portfolio</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </nav>
+              <div class="classy-menu">
+                <div class="classycloseIcon">
+                  <div class="cross-wrap">
+                    <span class="top"></span><span class="bottom"></span>
+                  </div>
                 </div>
-            </div>
+
+                <div
+                  class="classynav"
+                  data-aos="fade-left"
+                  data-aos-duration="3000"
+                >
+                  <ul id="nav">
+                    <li class="active"><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
-    <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200">
-        <li>
-            <a class="entypo-qq" href="#" target="_blank"><span>QQ</span></a>
-        </li>
-        <li>
-            <a class="entypo-gplus" href="#"
-                target="_blank"><span>Google+</span></a>
-        </li>
-        <li>
-            <a class="entypo-instagrem" href="#"
-                target="_blank"><span>Instagram</span></a>
-        </li>
-        <li>
-            <a class="entypo-sina-weibo" href="#"
-                target="_blank"><span>Weibo</span></a>
-        </li>
-        <li>
-            <a class="entypo-twitter" href="#" target="_blank"><span>Twitter</span></a>
-        </li>
-    </ul>
 
-
-    <section class="welcome-area" data-aos="fade-right-up" data-aos-duration="3000">
-        <div class="welcome-slides owl-carousel">
-
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-
-                        <div class="col-12 col-lg-8 col-xl-6">
-                            <div class="welcome-text">
-                                <h2 data-animation="bounceInUp" data-delay="100ms">Hello &nbsp;I'm DR</h2>
-                                <p data-animation="bounceInUp" data-delay="500ms">I like painting and cat...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="single-welcome-slide bg-img bg-overlay" data-aos="fade-left" data-aos-duration="3000"
-                style="background-image: url(img/bg-img/bg2.jpg);">
-                <div class="container h-100">
-
-                    <div class="row h-100 align-items-center">
-
-                        <div class="col-12 col-lg-8 col-xl-6">
-                            <div class="welcome-text">
-                                <h2 data-animation="bounceInUp" data-delay="100ms">経歴</h2>
-                                <p data-animation="bounceInUp" data-delay="500ms">2013.9-2018.7 &nbsp;&nbsp;四川音楽学院学部で彫刻専攻</p>
-                                <p data-animation="bounceInUp" data-delay="500ms">2019.9-2022.6 &nbsp;四川音楽学院大学院で油絵専攻</p>
-                                <p data-animation="bounceInUp" data-delay="500ms">2023.4-now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武蔵野美術大学大学院 美術研究科修士</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section
+      class="breadcrumb-area bg-img bg-overlay jarallax"
+      style="background-image: url(img/bg-img/bg1.jpg)"
+    >
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12">
+            <div class="breadcrumb-content text-center"></div>
+          </div>
         </div>
+      </div>
     </section>
 
-
-
-    <div class="alime-portfolio-area section-padding-80 ">
-        <div class="container-fluid" data-aos="zoom-in" data-aos-duration="3000">
-            <div class="row">
-                <div class="col-12">
-
-                    <div class="alime-projects-menu">
-                        <div class="portfolio-menu text-center">
-                            <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".human">Human</button>
-                            <button class="btn" data-filter=".nature">Nature</button>
-                            <button class="btn" data-filter=".country">Country</button>
-                            <button class="btn" data-filter=".video">Cat</button>
-                        </div>
-                    </div>
-                </div>
+    <div
+      class="alime-portfolio-area section-padding-80 clearfix"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="alime-projects-menu wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div class="portfolio-menu text-center">
+                <button class="btn active" data-filter="*">All</button>
+                <button class="btn" data-filter=".human">Human</button>
+                <button class="btn" data-filter=".nature">Nature</button>
+                <button class="btn" data-filter=".country">Country</button>
+                <button class="btn" data-filter=".video">Cat</button>
+              </div>
             </div>
-            <div class="row alime-portfolio">
-
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/1.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/1.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/2.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/2.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/3.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/3.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp"
-                    data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/4.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/4.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp"
-                    data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/5.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
-                    data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/6.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/6.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/7.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/7.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video country mb-30 wow fadeInUp"
-                    data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/8.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/8.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
-                    data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/9.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/9.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/10.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/10.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="my image/11.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="my image/11.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
-                    data-wow-delay="700ms">
-                    <div class="single-portfolio-content">
-                        <img src="my image/12.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="my image/12.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-6 single_gallery_item video country mb-30 wow fadeInUp"
-                    data-wow-delay="100ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/13.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/13.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
-                    data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/14.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/14.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
-                    data-wow-delay="300ms">
-                    <div class="single-portfolio-content">
-                        <img src="my image/image15.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="my image/image15.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp"
-                    data-wow-delay="500ms">
-                    <div class="single-portfolio-content">
-                        <img src="img/bg-img/16.jpg" alt="">
-                        <div class="hover-content">
-                            <a href="img/bg-img/16.jpg" class="portfolio-img">+</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
-                    <a href="#" class="btn alime-btn btn-2 mt-15">View More</a>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row alime-portfolio">
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
+            data-wow-delay="100ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g1.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g1.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp"
+            data-wow-delay="300ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g2.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g2.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp"
+            data-wow-delay="500ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g3.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g3.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
+            data-wow-delay="700ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g4.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g4.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
+            data-wow-delay="100ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g5.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g5.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item video country mb-30 wow fadeInUp"
+            data-wow-delay="300ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g6.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g6.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
+            data-wow-delay="500ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g7.png" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g7.png" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item nature mb-30 wow fadeInUp"
+            data-wow-delay="700ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g8.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g8.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item video country mb-30 wow fadeInUp"
+            data-wow-delay="100ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g9.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g9.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp"
+            data-wow-delay="300ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g10.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g10.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp"
+            data-wow-delay="500ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g11.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g11.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp"
+            data-wow-delay="700ms"
+          >
+            <div class="single-portfolio-content">
+              <img src="img/bg-img/g12.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/g12.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center wow fadeInUp" data-wow-delay="800ms">
+            <a href="#" class="btn alime-btn btn-2 mt-15">View More</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <section class="follow-area clearfix" data-aos="fade-right" data-aos-duration="3000">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <a href="#">
-                            <h2>Instagram</h2>
-                        </a>
-                    </div>
-                </div>
+    <div class="follow-area clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-heading text-center">
+              <h2>Follow Instagram</h2>
+              <p>
+                <a href="#">XXXXXXXX</a>
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="instragram-feed-area owl-carousel">
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom1.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
         </div>
 
-        <div class="instragram-feed-area owl-carousel">
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom1.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>XXXXXX</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom2.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>xxxx</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom3.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>xxxx
-                        </span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom4.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>xxxx</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom5.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>xxxx</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="single-instagram-item">
-                <img src="img/bg-img/bottom6.jpg" alt="">
-                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                    <a href="#" style="font-size: 18px;">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>xxxx</span>
-                    </a>
-                </div>
-            </div>
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom2.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
         </div>
-    </section>
+
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom3.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom4.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom5.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="single-instagram-item">
+          <img src="img/bg-img/bottom6.jpg" alt="" />
+          <div
+            class="instagram-hover-content text-center d-flex align-items-center justify-content-center"
+          >
+            <a href="#" style="font-size: 18px">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span>DR</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
-        <div class="wrapper"  data-aos-duration="3000">
-            <div class="containerUp">
-                <div class="connect">
-                    <div >
-                        <h2>Stay up to date on the latest from Me</h2>
-                    </div>
-                    <div class="connect-form">
-                        <form>
-                            <input type="email" placeholder="Enter your email">
-                            <button>Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="social-info">
-                    <div class="icons">
-                        <a href="# target="_blank"><img
-                                src="./img/footer-icons/facebook.png"></a>
-                        <a href="#" target="_blank"><img
-                                src="./img/footer-icons/insta.jpg"></a>
-                        <a href="#" target="_blank"><img
-                                src="./img/footer-icons/twitter-4-48.png"></a>
-                        <a href="# target="_blank"><img
-                                src="./img/footer-icons/qq.png"></a>
-                        <a href="#" target="_blank"><img
-                                src="./img/footer-icons/wechat.png"></a>
-                    </div>
-                </div>
-
+      <div class="wrapper">
+        <div class="containerUp">
+          <div class="social-info">
+            <h2></h2>
+            <div class="icons">
+              <a href="#" target="_blank"
+                ><img src="./img/footer-icons/insta.jpg"
+              /></a>
+              <a target="_blank" onclick="copyWeChat('drPOCARI')"
+                ><img src="./img/footer-icons/wechat.png"
+              /></a>
+              <a href="mailto:dr327946674@gmail.com">
+                <img src="./img/footer-icons/mail.png"
+              /></a>
+              <a href="https://xhslink.com/m/8VeX2jXJxAi" target="_blank">
+                <img src="./img/footer-icons/red.png"
+              /></a>
             </div>
-
-            <hr>
-            <div class="containerDown">
-                <div class="last">
-                    <div class="head" style="color: #636363;">Total Website Visit</div>
-                    <div class="count" style="color: #636363;">00</div>
-                </div>
-                <p>Copyright © 2024 All rights reserved | Made with <span class="heart">❤</span> by <a
-                        href="#" target="_blank">DR</a></p>
-            </div>
+          </div>
+          <div class="connect">
+            <h2>Stay up to date on the latest from Me</h2>
+            <form>
+              <input type="email" placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
         </div>
+        <hr />
+        <div class="containerDown">
+          <div class="last">
+            <p>
+              Copyright © 2026
+              <a href="#" target="_blank">DR</a>
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
 
-<script>
-    function updateCounter() {
-        fetch('https://api.countapi.xyz/update/uimonk/youtubechannel/?amount=1')
-            .then(res => res.json())
-            .then(data => counterElement.innerHTML = data.value)
-    }
-    updateCounter()
-    counterElement = document.getElementsByClassName('count')[0];
-</script>
+    <script src="js/jquery.min.js"></script>
 
+    <script src="js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
+    <script>
+      eval(mod_pagespeed_2mSwO3vn68);
+    </script>
 
-<script src="js/jquery.min.js"></script>
+    <script>
+      eval(mod_pagespeed_aQrG1NKKxL);
+    </script>
 
-<script src="js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
-<script>
-    eval(mod_pagespeed_2mSwO3vn68);
-</script>
+    <script src="js/alime.bundle.js"></script>
 
-<script>
-    eval(mod_pagespeed_aQrG1NKKxL);
-</script>
+    <script src="js/default-assets/active.js"></script>
+    <script src="js/script.js"></script>
 
-<script src="js/alime.bundle.js"></script>
+    <script>
+      (function ($) {
+        'use strict';
 
-<script src="js/default-assets/active.js"></script>
+        function runArtGalleryFix() {
+          var $artLinks = $('.portfolio-img');
+          if ($artLinks.length === 0) return;
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+          $artLinks.unbind('click').off('click');
 
-    function gtag() {
+          $artLinks.on('click', function (e) {
+            e.preventDefault();
+            var currentIndex = $artLinks.index(this);
+
+            var items = $artLinks
+              .map(function () {
+                return { src: $(this).attr('href'), title: '' };
+              })
+              .get();
+
+            $.magnificPopup.open(
+              {
+                items: items,
+                type: 'image',
+                gallery: { enabled: true, navigateByImgClick: false },
+                closeOnBgClick: true,
+                closeOnContentClick: false,
+                fixedContentPos: true, // 强制锁定位置
+                mainClass: 'mfp-fade',
+                callbacks: {
+                  open: function () {
+                    var mfp = this;
+                    $('html, body').css('overflow', 'hidden');
+
+                    var container = document.querySelector('.mfp-container');
+                    var imgElement = null;
+                    var startX = 0;
+                    var currentTranslateX = 0;
+                    var ticking = false;
+                    var isDragging = false; // 标记电脑鼠标是否正在按下拖动
+
+                    // 核心：硬件加速渲染函数
+                    function updatePosition() {
+                      if (imgElement) {
+                        // 使用 translate3d 强制电脑和手机都开启 GPU 加速
+                        imgElement.style.transform =
+                          'translate3d(' + currentTranslateX + 'px, 0, 0)';
+                      }
+                      ticking = false;
+                    }
+
+                    // --- 开始动作 (鼠标按下 或 手指触摸) ---
+                    var handleStart = function (e) {
+                      startX = e.screenX || e.changedTouches[0].screenX;
+                      isDragging = true;
+                      imgElement = document.querySelector('.mfp-img');
+                      if (imgElement) {
+                        imgElement.style.transition = 'none';
+                        imgElement.style.willChange = 'transform';
+                      }
+                    };
+
+                    // --- 移动动作 ---
+                    var handleMove = function (e) {
+                      if (!isDragging) return;
+
+                      // 阻止电脑上鼠标拖动图片时出现的“禁止符号”或系统默认抓取
+                      if (e.type === 'mousemove') e.preventDefault();
+
+                      var x = e.screenX || e.changedTouches[0].screenX;
+                      currentTranslateX = x - startX;
+
+                      if (!ticking) {
+                        window.requestAnimationFrame(updatePosition);
+                        ticking = true;
+                      }
+                    };
+
+                    // --- 结束动作 ---
+                    var handleEnd = function (e) {
+                      if (!isDragging) return;
+                      isDragging = false;
+
+                      var endX =
+                        e.screenX ||
+                        (e.changedTouches && e.changedTouches[0].screenX);
+                      // 如果是 mouseup，e 没有 changedTouches，需要特殊处理
+                      if (endX === undefined) endX = startX + currentTranslateX;
+
+                      var diff = endX - startX;
+
+                      if (imgElement) {
+                        imgElement.style.transition =
+                          'transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)';
+                        imgElement.style.transform = 'translate3d(0, 0, 0)';
+                      }
+
+                      // 阈值判断：拖动超过 100 像素则翻页
+                      if (diff < -100) mfp.next();
+                      if (diff > 100) mfp.prev();
+                    };
+
+                    // 绑定手机事件
+                    container.addEventListener('touchstart', handleStart, {
+                      passive: true,
+                    });
+                    container.addEventListener('touchmove', handleMove, {
+                      passive: false,
+                    }); // 必须非 passive 以便 preventDefault
+                    container.addEventListener('touchend', handleEnd, {
+                      passive: true,
+                    });
+
+                    // 绑定电脑事件
+                    container.addEventListener('mousedown', handleStart);
+                    window.addEventListener('mousemove', handleMove);
+                    window.addEventListener('mouseup', handleEnd);
+                  },
+                  close: function () {
+                    $('html, body').css('overflow', 'auto');
+                    // 清理全局事件，防止影响页面其他部分
+                    window.removeEventListener('mousemove', null);
+                    window.removeEventListener('mouseup', null);
+                  },
+                },
+              },
+              currentIndex,
+            );
+          });
+        }
+
+        $(window).on('load', function () {
+          setTimeout(runArtGalleryFix, 1000);
+        });
+      })(jQuery);
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
         dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
-</script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
-    data-cf-beacon='{"rayId":"699023133d611baa","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
-<!-- animate on scroll js  -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-</body>
-
-
-
+      gtag('config', 'UA-23581568-13');
+    </script>
+    <script
+      defer
+      src="../../../static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"rayId":"699023286d631bc2","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'
+    ></script>
+    <!-- animate on scroll js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

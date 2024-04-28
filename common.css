@@ -1,0 +1,430 @@
+body {
+  background: #404246;
+}
+.Query {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 40px 80px 0px;
+}
+
+h1 {
+  color: #eaeaea;
+  font-weight: 600;
+}
+
+.Query .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Query .center {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Query .left h2 {
+  font-size: 50px;
+}
+
+.Query .right form {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 46px;
+  text-shadow: 0 2px 4px rgb(71 97 206 / 36%);
+  color: #fff !important;
+}
+
+.Query .right form button {
+  padding: 10px 200px 10px 200px;
+  margin: 10px 10px;
+  color: #111;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Query .right form button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+}
+
+.Query .right form input {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Query .right form textarea {
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+  text-align: center;
+  color: #eaeaea;
+}
+
+a {
+  text-decoration: none;
+}
+
+h6 {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  font-size: 18px;
+  z-index: 90;
+}
+
+.contact-OR {
+  background-color: #fc6060;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 47.5%;
+  margin-right: 47.5%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+}
+
+.form-control {
+  margin-top: 18px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  /* background-color: rgba(240, 248, 255, 0.185); */
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#footer-icons {
+  /* background-color: rgba(240, 248, 255, 0.185); */
+  padding: 0 15%;
+  border-radius: 2px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+#footer-icons:hover {
+  transform: none;
+}
+
+@media (max-width: 1010px) {
+  .Query {
+    padding: 100px 20px 80px 30px;
+  }
+}
+
+@media (max-width: 780px) {
+  .Query {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .Query .right form button {
+    padding: 10px 200px 10px 200px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .classy-nav-container .classy-navbar .nav-brand {
+    margin-left: 3px;
+    max-width: fit-content;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 535px) {
+  .Query .right form button {
+    padding: 10px 175px 10px 175px;
+  }
+}
+
+@media (max-width: 420px) {
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Query .right form button {
+    padding: 10px 30% 10px 30%;
+  }
+
+  .icons {
+    /* background-color: rgba(240, 248, 255, 0.185); */
+    padding: 10%;
+  }
+}
+
+/* --- 强制修正并美化 Magnific Popup 左右按钮 --- */
+.mfp-arrow {
+  position: fixed !important; /* 确保相对于屏幕定位 */
+  top: 50% !important;
+  margin-top: -30px !important; /* 精确居中修正 */
+  opacity: 0.1 !important; /* 默认几乎透明，保持画作纯净 */
+  z-index: 1090 !important; /* 确保在最上层 */
+
+  /* 缩小体积 */
+  width: 60px !important;
+  height: 60px !important;
+  background-color: transparent !important; /* 彻底移除红色背景 */
+
+  /* 圆角和边框，增加精致感 */
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 50% !important; /* 变成圆形 */
+
+  transition: all 0.3s ease-out !important; /* 优雅的淡入效果 */
+}
+
+/* 鼠标悬停（或手机点击）时的状态 */
+.mfp-arrow:hover,
+.mfp-arrow:active {
+  opacity: 0.8 !important; /* 变亮 */
+  background-color: rgba(255, 255, 255, 0.2) !important; /* 淡淡的水彩感遮罩 */
+  border-color: rgba(255, 255, 255, 0.9) !important; /* 边框变实 */
+}
+
+/* 左箭头靠左 */
+.mfp-arrow-left {
+  left: 15px !important;
+}
+
+/* 右箭头靠右 */
+.mfp-arrow-right {
+  right: 15px !important;
+}
+
+/* --- 核心优化：彻底移除原模板残留的红色方块装饰 --- */
+.mfp-arrow::before,
+.mfp-arrow::after {
+  display: none !important; /* 删掉原模板的红色方块和粗箭头 */
+}
+
+/* --- 使用极细的 FontAwesome 图标，增加学术感 --- */
+.mfp-arrow:after {
+  display: block !important;
+  content: '' !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:
+    'Font Awesome 6 Free', 'Font Awesome 5 Free'; /* 确保引用你的 FA 库 */
+  font-weight: 900;
+  font-size: 20px; /* 缩小图标体积 */
+  color: white !important; /* 图标设为白色 */
+}
+
+.mfp-arrow-left:after {
+  content: '\f104' !important; /* FA 极细左箭头，类似 < */
+}
+
+.mfp-arrow-right:after {
+  content: '\f105' !important; /* FA 极细右箭头，类似 > */
+}
+
+/* style.css */
+.mfp-bg {
+  background: #0b0b0b !important; /* 深色背景 */
+  opacity: 0.85 !important; /* 稍微透出一点底部的画廊，增加空间感 */
+}
+
+/* 增加淡入淡出动画 */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.85;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.hover-content {
+  pointer-events: auto;
+}
+
+图片切换时的淡入淡出动画 */ .mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.85;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+/* 拖动时的平滑感 */
+.mfp-img {
+  transition: transform 0.3s ease-out !important;
+}
+
+/* 确保大图容器不产生滚动条，且背景点击区域生效 */
+.mfp-container {
+  padding: 0 10px !important;
+  overflow: hidden !important; /* 彻底禁止弹出层内部的上下滑动 */
+}
+
+/* 增加图片切换时的平滑阻尼感 */
+.mfp-img {
+  -webkit-user-drag: none; /* 禁止浏览器自带的图片拖动行为 */
+  user-select: none;
+}
+/* 缩小图片容器的感应范围，让它只包裹图片，这样旁边的空白才能被点到 */
+.mfp-figure {
+  cursor: default;
+}
+.mfp-figure:after {
+  display: none !important; /* 去除原有的阴影遮罩层，防止它挡住点击 */
+}
+.mfp-img {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 手动给图片加阴影，更有立体感 */
+}
+/* 确保关闭按钮在最顶层 */
+.mfp-close {
+  z-index: 9999 !important;
+}
+
+/* 电脑版大图增加抓取手势 */
+.mfp-img {
+  cursor: grab !important;
+  -webkit-user-drag: none; /* 必须禁用浏览器默认的图片拖拽 */
+}
+.mfp-img:active {
+  cursor: grabbing !important;
+}
+
+/* 开启硬件加速补丁 */
+.mfp-img {
+  backface-visibility: hidden; /* 隐藏背切面 */
+  perspective: 1000; /* 设置视距 */
+  -webkit-user-drag: none;
+  -ms-touch-action: none; /* 禁止系统默认手势 */
+  touch-action: none;
+}
+
+/* 降低阴影复杂度：手机端阴影太大会导致滑动掉帧 */
+@media (max-width: 767px) {
+  .mfp-img {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+  }
+  /* 避免点击反馈延迟 */
+  * {
+    touch-action: manipulation;
+  }
+}
+
+/* 电脑端专用优化 */
+.mfp-img {
+  -webkit-user-drag: none; /* 禁用系统自带的图片拖动 */
+  user-select: none; /* 禁用文字/图片选中 */
+  cursor: grab; /* 未点击时显示“小手” */
+}
+
+.mfp-img:active {
+  cursor: grabbing; /* 点击拖动时显示“抓取”手势 */
+}
+
+/* 给图片一个淡淡的占位背景色，防止加载时一片空白 */
+.single-portfolio-content img {
+  background-color: #f0f0f0; /* 或者改成磨砂灰 #2a2a2a */
+  transition: opacity 0.3s ease-out;
+}
+
+@media (max-width: 767px) {
+  /* 调整手机端图片的间距 */
+  .alime-portfolio .single_gallery_item {
+    padding: 0 5px !important; /* 左右留一点小缝隙 */
+    margin-bottom: 15px !important;
+  }
+
+  /* 确保图片在小方块里也能显示完整 */
+  .single-portfolio-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .breadcrumb-area.bg-img {
+    /* 1. 核心修复：调整垂直对齐百分比 (0% 顶部, 50% 中间, 100% 底部) */
+    /* 如果人物头部靠上，试着改成 40% 或 30% */
+    background-position: center 40% !important;
+
+    /* 2. 优化：强制 cover 模式，保证铺满，不留白边 */
+    background-size: cover !important;
+
+    /* 3. 调整容器高度，让中间展示区域更集中 */
+    height: 280px !important;
+  }
+}
